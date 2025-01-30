@@ -1,0 +1,1 @@
+execute if score #installed tssGloCtir matches 1 run function tss:main
