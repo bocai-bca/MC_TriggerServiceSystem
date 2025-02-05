@@ -1,0 +1,1 @@
+data modify storage tss:main {}.cmds append value {cmd:"tss.help",permission:0,function:"tss_helper:do_help"}
