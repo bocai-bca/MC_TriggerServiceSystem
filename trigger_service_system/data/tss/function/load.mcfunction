@@ -1,2 +1,2 @@
-execute if score #installed tssGloCtir matches 1 run return run tellraw @a [{"text":"[触发器服务系统] 数据包载入, TSS状态: 已安装"}]
-tellraw @a [{"text":"[触发器服务系统] 数据包载入, TSS状态: 未安装\n  请由具有op权限的玩家或在服务器后台中执行以下命令以进行安装:\n    /function _tss:install"}]
+execute if score #installed tssGloCtir matches 1 run return run tellraw @a ["",{"text":"[触发器服务系统] 数据包载入, TSS状态: 已安装"}]
+tellraw @a ["",{"text":"[触发器服务系统] 数据包载入, TSS状态: 未安装\n  请由具有op权限的玩家或在服务器后台中执行以下命令以进行安装:\n    "},{"text":"/function _tss:install","underlined":true,"clickEvent":{"action":"suggest_command","value":"/function _tss:install"}}]
